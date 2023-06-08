@@ -1,2 +1,2 @@
 # Rusangu-University
-Rusangu University New Website
+Rusangu University Assesement Website
