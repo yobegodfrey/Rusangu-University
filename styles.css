@@ -76,7 +76,7 @@ nav .navigation ul li a{
     font-size: 16px;
     font-weight: 500;
     transition: 0.3s ease;
-    
+     
 }
 nav .navigation ul li a:hover{
 color:darkgoldenrod
@@ -195,8 +195,8 @@ padding-top: 40px;
 
  #course .courses {
     text-align: start;
-    background-color: #F9F9FF;
-    height: 100%;
+    background-color: #334F6c;
+    height: 80%;
     position: relative;
  }
 
@@ -434,6 +434,8 @@ footer .copyright .pro-links i:hover {
     color: #2c2c2c;
 }
 
+
+
 @media (max-width:769px) {
     nav {
         padding: 15px 20px;
@@ -494,6 +496,24 @@ footer .copyright .pro-links i:hover {
         padding: 8vw 4vw 0 4vw;
  }
 
+ #features h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #features p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
  #course {
     padding: 8vw 4vw 0 4vw;
  }
@@ -515,7 +535,19 @@ footer .copyright .pro-links i:hover {
 
  footer .copyright .pro-links {
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
+
+ .map-g {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
 
 }
 
@@ -534,4 +566,14 @@ footer .copyright .pro-links i:hover {
         align-items: center;
         margin-top: 20px;
      }
+}
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
