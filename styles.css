@@ -100,12 +100,17 @@ justify-content: center;
 align-items: center;
 text-align: center;
 padding-top: 40px;
+animation: change 30s infinite ease;
 }
 
 #home h2{
     color: white;
     font-size: 2.2em;
     letter-spacing: 1px;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 #home p{
@@ -311,7 +316,7 @@ padding-top: 40px;
 }
 #experts .expert-box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 2rem;
     margin-top: 50px;
 }
@@ -571,13 +576,21 @@ footer .copyright .pro-links i:hover {
         margin-top: 20px;
      }
 }
-@keyframes slideRight {
+@keyframes change {
     0% {
-        transform: translateX(-100px);
-        opacity: 0;
+        background-image: url(images/bg2.png);
     }
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
+
+    20% {
+        background-image: url(images/bg3.jpg);
     }
+
+    40% {
+        background-image: url(images/bg4.jpg);
+    }
+
+    60% {
+        background-image: url(images/bbg.jpg);
+    }
+
 }
