@@ -445,7 +445,7 @@ footer .copyright .pro-links i:hover {
 
 
 
-@media (max-width:769px) {
+@media (max-width:475px) {
     nav {
         padding: 15px 20px;
     }
@@ -560,22 +560,6 @@ footer .copyright .pro-links i:hover {
 
 }
 
-@media (max-width:475px) {
-    #registration {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    #registration .reminder .time {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-     }
-}
 @keyframes change {
     0% {
         background-image: url(images/bg2.png);
