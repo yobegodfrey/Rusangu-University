@@ -82,6 +82,10 @@ nav .navigation ul li a:hover{
 color:darkgoldenrod
 }
 
+nav .navigation ul li .log-in {
+    margin-top: 400px;
+}
+
 /* Home */
 
 #home {
