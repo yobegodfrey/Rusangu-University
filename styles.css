@@ -159,12 +159,10 @@ animation: change 30s infinite ease;
 #media-videos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 6rem;
     margin-top: 50px;
-    width: 460px;
-    height: 400;
     padding: 8vw 8vw 8vw 8vw;
-    display: flex;
+    
     
 }
 
@@ -325,6 +323,12 @@ animation: change 30s infinite ease;
   }
 
   /* Experts */
+.profile img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
 #experts {
         padding: 8vw 8vw 8vw 8vw;
         text-align: center;
@@ -460,7 +464,9 @@ footer .copyright .pro-links i:hover {
 
 
 
-@media (max-width:475px) {
+@media (max-width:600px) {
+
+
     nav {
         padding: 15px 20px;
     }
@@ -516,6 +522,11 @@ footer .copyright .pro-links i:hover {
  #home p {
         width: 90%;
  }
+
+ #media-videos {
+    padding: 8vw 8vw 0 8vw;
+ }
+
  #features{
         padding: 8vw 4vw 0 4vw;
  }
