@@ -462,7 +462,10 @@ footer .copyright .pro-links i:hover {
     color: #2c2c2c;
 }
 
+/* ------------------------------------------------------- */
+/* THIS SECTION DEALS WITH THE RESPONSIVENESS OF THE SITE */
 
+/* ------------------------------------------------------- */
 
 @media (max-width:600px) {
 
@@ -523,10 +526,6 @@ footer .copyright .pro-links i:hover {
         width: 90%;
  }
 
- #media-videos {
-    padding: 8vw 8vw 0 8vw;
- }
-
  #features{
         padding: 8vw 4vw 0 4vw;
  }
@@ -582,6 +581,23 @@ footer .copyright .pro-links i:hover {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+}
+
+
+#media-videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-box {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.media-box iframe {
+    width: 100%;
+    height: auto;
 }
 
 }
